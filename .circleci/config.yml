@@ -13,7 +13,7 @@ jobs:
   run-specs-with-postgres:
     executor:
       name: solidusio_extensions/postgres
-      ruby_version: "3.0"
+      ruby_version: "3.2.0"
     steps:
       - browser-tools/install-chrome
       - solidusio_extensions/run-tests
